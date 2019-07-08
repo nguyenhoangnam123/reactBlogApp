@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": false,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strictNullChecks": true,
+    "types": ["react", "jest"],
+    "baseUrl": "./",
+    "paths": {
+      "Interface/*": ["src/frontend/interface/*"],
+      "Components/*": ["src/frontend/components/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "static"]
+}
